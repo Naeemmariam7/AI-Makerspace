@@ -3,7 +3,6 @@ wget 'https://bootstrap.pypa.io/get-pip.py'
 python3 get-pip.py
 export PATH="$HOME/.local/bin:$PATH"
 pip install streamlit
-cd /
 git clone 'https://github.com/DigitalProductschool/AI-Makerspace.git'
 mv AI-Makerspace/PyCaret-Classification/* /sandbox
 cd /sandbox/
